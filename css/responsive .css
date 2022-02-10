@@ -1,0 +1,140 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    #bg {background: none;}
+    .header_area__short h4 {font-size: 50%;}
+     /* Header_Area__Start */
+    .header_area__main1st {padding-top: 8%;}
+    .header_area__left h2 {font-size: 80%;}
+    .header_area__left h4 {font-size: 40%;}
+    .header_area__right {padding-top: 0%;}
+    .hide_menu {display: none;}
+    .header_area__right .slicknav_menu {
+        display: block;
+        background: none;
+        padding: .6% 2% 2% 2%;
+    }
+    .slicknav_nav {font-size: 60%;}
+    .slicknav_nav ul {
+        margin: 0;
+        text-align: center;
+    }
+    .slicknav_menu .slicknav_menutxt {display: none;}
+    .header_area__right ul li {
+        display: block;
+        margin: 0% 59.5% 0% 3.5%;
+    }
+    .header_area__right ul li a {
+        padding: 10% 0%;
+        margin: 0;
+    }
+    .slicknav_btn {
+        background: none;
+        margin: 0;
+        padding: 0.1%;
+    }
+    .header_area__main2nd .owl_car {display: none;}
+    .header_area__main2nd {margin-top: 0;}
+    .header_area__main2ndforphone {display: block;}
+    .header_area__main2ndforphone .owl_car {display: block;}
+    .header_area__main2ndforphone .owl-dots {
+        position: absolute;
+        bottom: 1.5%;
+        width: 100%;
+        text-align: center;
+    }
+    .header_area__main2ndforphone .owl-dots button.owl-dot {
+        background: #76c38f !important;
+        padding: 0.4375rem !important;
+        border-radius: 50%;
+        margin: 0 0.3125rem;
+    }
+    .header_area__main2ndforphone .owl-dots button.active {background: #fff !important;}
+    .header_area__left2nd, .header_area__right2nd {
+        float: none;
+        width: 100%;
+    }
+    .header_area__right2nd img {
+        margin-bottom: 0;
+        width: 100% !important;
+    }
+    .header_area_left2ndhllp {width: 100%;}
+    .header_area__left2nd h1 {
+        margin: 10% 0 5% 0;
+        font-size: 150%;
+    }
+    .header_area__left2nd button {margin: 5% 0 12% 0;}
+    /* Header_Area__Stop */
+    /* Service_Area__Start */
+    .serive_area {
+        padding: 10% 0 8% 0;
+        margin: 0;
+        background-color: #303030;
+    }
+    .serive_area .serive_area {
+        padding: 10% 0 8% 0;
+        margin: 0;
+        background-color: #303030;
+    }
+    .service_area__col {
+        float: none;
+        width: 100%;
+        margin: 5% 0 0 0;
+        padding: 20% 0;
+    }
+    /* Service_Area__Stop */
+    /* Work_Area__Start */
+    .work_area {
+        padding-top: 5%;
+        background: rgba(71, 71, 71, .7);
+    }
+    .work_area__maincol {
+        float: none;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .work_area__col {width: 100%;}
+    .work_area__col img {
+        width: 100%;
+        padding: 2% 2% 0 2%;
+    }
+    .work_area__head h2 {width: 50%;}
+    .work_area__col p, .work_area__col span {
+        padding: 2% 0;
+        width: 96%;
+        text-align: center;
+        left: 2%;
+        bottom: 0;
+        background: rgba(48, 48, 48, 0.7);
+    }
+    /* Work_Area_Stop */
+    /* Footer_Area__Start */
+    .main_footer {padding-top: 0;}
+    .footer_area__col {
+        float: none;
+        width: 100%;
+        margin: 20% 0 0 0;
+    }
+    .footer_area__containt input, .footer_area__containt textarea {
+        padding: 4% 3%;
+        width: 100%;
+    }
+    .subfoot_for__laptop {display: none;}
+    .subfoot_for__mobile {
+        display: block;
+        text-align: center;
+    }
+    .subspant {margin: 0;}
+    /* Footer_Area__Stop */
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
